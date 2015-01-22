@@ -1,0 +1,16 @@
+link(rel="stylesheet" src="bower_components/mediaelement/build/mediaelementplayer.css")
+h1 Spot test
+
+button(onclick="requestVideo()") Request Video
+input#input
+button(onclick="playVideo()") Play Video
+
+video#video(controls)
+//- object#object(data="movie.mp4")
+#container
+//- embed#embed(type="application/x-shockwave-flash")
+
+script(src="bower_components/jquery/dist/jquery.js")
+script(src="bower_components/socket.io-client/socket.io.js")
+script(src="bower_components/mediaelement/build/mediaelement-and-player.js")
+script(src="script.js")

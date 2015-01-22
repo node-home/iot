@@ -1,0 +1,15 @@
+{
+  "name": "client",
+  "version": "0.0.0",
+  "authors": [
+    "Jesse the Game <j.k.zwaan@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

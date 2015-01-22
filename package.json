@@ -1,0 +1,26 @@
+{
+  "name": "iot",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "q": "^1.0.1",
+    "request": "^2.40.0",
+    "socket.io-client": "^1.0.6",
+    "tinycolor2": "^1.0.0"
+  },
+  "dependencies": {
+    "coffee-script-brunch": "^1.8.0",
+    "events": "^1.0.1",
+    "geolib": "^2.0.14",
+    "socket.io": "^1.0.6",
+    "stylus-brunch": "^1.8.1",
+    "then-redis": "^0.3.12",
+    "twitter": "^0.2.9"
+  }
+}

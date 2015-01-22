@@ -1,0 +1,20 @@
+link(rel="stylesheet" src="app.css")
+
+h1 Spot test
+
+button(onclick="requestVideo()") Request Video
+input#input
+button(onclick="playVideo()") Play Video
+
+video#video(controls)
+//- object#object(data="movie.mp4")
+#container
+//- embed#embed(type="application/x-shockwave-flash")
+
+script(src="//localhost:4444/socket.io/socket.io.js")
+
+script(src="vendor.js")
+script(src="app.js")
+
+script.
+  require('main')

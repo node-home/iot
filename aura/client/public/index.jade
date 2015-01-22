@@ -1,0 +1,8 @@
+doctype html
+link(href="/assets/app.css" rel="stylesheet" type="text/css" media="all")
+
+body(ng-controller="AuraCtrl")
+    aura-light(ng-repeat="(uid, color) in lights")
+    aura-object(ng-repeat="(uid, color) in objects")
+
+    script(src="/assets/app.js")
